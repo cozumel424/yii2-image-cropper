@@ -1,6 +1,11 @@
 Yii2 Image Cropper
 ==================
-A simple wrapper for the imgAreaSelect jquery plugin
+
+[![Latest Stable Version](https://poser.pugx.org/cozumel424/yii2-image-cropper/v/stable)](https://packagist.org/packages/cozumel424/yii2-image-cropper) 
+[![Total Downloads](https://poser.pugx.org/cozumel424/yii2-image-cropper/downloads)](https://packagist.org/packages/cozumel424/yii2-image-cropper) 
+[![License](https://poser.pugx.org/cozumel424/yii2-image-cropper/license)](https://packagist.org/packages/cozumel424/yii2-image-cropper)
+
+A simple wrapper for the [imgAreaSelect](http://odyniec.net/projects/imgareaselect/) jquery plugin
 
 Installation
 ------------
