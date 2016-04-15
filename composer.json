@@ -1,0 +1,21 @@
+{
+    "name": "cozumel/yii2-image-cropper",
+    "description": "A simple wrapper for the imgAreaSelect jquery plugin",
+    "type": "yii2-extension",
+    "keywords": ["yii2","image","crop"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Cozumel",
+            "email": "cozietech@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cozumel\\cropper\\": ""
+        }
+    }
+}
