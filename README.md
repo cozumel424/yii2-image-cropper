@@ -88,7 +88,6 @@ Javascript to submit the form:
 ```javascript
 $(document).ready(function () {
 
-//sends crop info from user/photo
     $(document.body).on('submit', '#crop_form', function (e) {
 
         var frm = $(this); //just sent text
@@ -132,7 +131,7 @@ if (empty($w)) {
   //nothing selected
   return;
 }
-$image = imagecreatefromjpeg($profile_picture);
+$image = imagecreatefromjpeg($image_source);
 
 $width = imagesx($image);
 $height = imagesy($image);
@@ -142,7 +141,7 @@ $resized_height = ((int) $y2) - ((int) $y1);
 
  $resized_image = imagecreatetruecolor($resized_width, $resized_height);
  imagecopyresampled($resized_image, $image, 0, 0, (int) $x1, (int) $y1, $width, $height, $width, $height);
- imagejpeg($resized_image, $profile_picture);
+ imagejpeg($resized_image, $image_source);
  ```
  
 
